@@ -1,7 +1,7 @@
 import { DaoInterface } from '../DaoInterface/Daointerface';
 
 export class Dao<T> implements DaoInterface<T> {
-  nomeTabela: string = 'tb_concessionaria';
+  nomeTabela: string = '';
 
   inserir(object: T): boolean {
     console.log('Inserir');
